@@ -1,0 +1,7 @@
+n=9
+m=2
+sum=n+m
+def isEven(n): 
+    return(n%2==0)
+n=sum 
+print("Even" if isEven(n) else "Odd")
